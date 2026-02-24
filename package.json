@@ -1,0 +1,30 @@
+{
+  "name": "1024b-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikacapile/1024B-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikacapile/1024B-backend/issues"
+  },
+  "homepage": "https://github.com/mikacapile/1024B-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
