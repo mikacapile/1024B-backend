@@ -1,41 +1,79 @@
 let x:number = 10
 
-let some:string = "Guilherme"
+let nome:string = "gui"
 
-let vetor:number[] = [1,2,3,4,5]
+let vetor:number[] = [1,2,3]
 
-let nomes:string[] = ["oi","olá"]
+let vetorstring:string[] = ["oi", "oi2"]
 
-console.log(nomes)
+//console.log(a)
+console.log(nome)
 
+//teste
 
-let bol: boolean = true;
+let bol:boolean = true;
 
-bol = false
+bol = false;
 
 const variavel:any = "oi"
 
 const a:undefined = undefined;
 
-const obj:{id:number;nome:string;idade:number} = {
-    id:1,
-    nome:"Mika",
-    idade: 17
+let obj:{id:number, nome:string, idade:number} ={
+id:1,
+nome:"guilherme",
+idade:31
 }
-obj.id=2
-obj.nome = "Mika"
-obj.idade = 32
 
-const x1 = 10
-
-const vetor1 = [0,1,2,3,4]
-vetor1[0] = 10
-
-let vetor2: number[]= [0,1,2,3,4]
-vetor2 = [0,1,2,3,4]
-
-let outraletra: number|string[] = 10 ;
+obj.id=1
+obj.nome="tere"
+obj.idade=33
 
 
+const asdf = [0,1,2,3,4,5]
+asdf[0] = 10
 
 
+const a1: number|string = 10
+
+type Pessoa = {id:number, nome:string, idade:number}
+
+let p1:Pessoa ={
+id:1,
+nome:"gui",
+idade:31
+}
+
+
+
+//Funções no javascript/typescript
+//oque é função?
+//um bloco de codigo que executa uma tarefa
+
+//beneficio: não repetir codigo 
+
+function nomeFuncao(variavel:number): number{
+    return 10
+}
+
+const f = (variavel:number): number=> 10
+const f3 = f
+const f2 = nomeFuncao(10)
+
+console.log("valor de x é" + f3.toString)
+console.log(`valor de x é ${f3}`)
+
+
+//terminem essa função para retornar a soma de todos os elementos de um vetor.
+function somaVetor(vetor:number[]){
+    let soma = 0
+    for (let i= 0; i < vetor.length; i++) {
+        soma = soma + vetor[i];             
+    }
+    return soma           
+}
+const x = somaPar([1,2,3,4,])
+
+// Faça uma função que receba 2 vetores e 
+//faça a operação de merge entre eles 
+ex: mergeVetor([1,2,3])
